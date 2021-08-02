@@ -1,11 +1,15 @@
 
-.nav-link:hover {
-    border-bottom: 2px solid rgb(9, 6, 173) ;
+.navbar{
+    background:linear-gradient(to right,rgb(40, 87, 226),rgb(0, 0, 0))
 }
-
-
+.nav-link:hover {
+    border-bottom: 2px solid rgb(230, 230, 238) ;
+}
+.nav-link:active {
+    border-bottom: 2px solid rgb(230, 230, 238) ;
+}
 .mega-menu {
-    background: rgb(241, 241, 241);
+    background: url(https://mega00.blob.core.windows.net/projectimages/Navbar-psvsxb.png);
     visibility: hidden;
     opacity: 0;
     transition: visibility 0s, opacity 0.5s linear;
@@ -17,7 +21,7 @@
 }
 .mega-menu h3 {
     text-align: center;
-    color: #444;
+    color: rgb(202, 202, 202);
 }
 
 .mega-menu .container {
